@@ -1,0 +1,147 @@
+
+body {
+    background-color: black;
+    color: goldenrod;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap:wrap;
+    margin:0;
+    padding:0;
+    z-index:10;
+}
+
+nav li{
+    list-style:none;
+    background-color:goldenrod;
+    color:black;
+    margin:0;
+    flex:1;
+    min-width:200px;
+    text-align:center;
+    display:flex;
+    position:relative;
+}
+
+nav a, nav a:visited{
+    text-decoration:none;
+    width:100%;
+    padding:8px 0;
+    color:black;
+    font-weight:bold;
+}
+nav a:hover, nav a.active{
+    color:lightblue;
+    background-color:rgba(13, 27, 27, 1)
+}
+.dropdown-content{
+    position:absolute;
+    top:34px;
+    width:100%;
+    display:none;
+    z-index:20;
+}
+nav li:hover .dropdown-content{
+    display:block;
+}
+.dropdown-content a{
+    font-weight:bold;
+}
+.dropdown-content ul{
+    flex-direction:column;
+}
+.ds{
+    width:300px;
+    height:300px;
+    float:left;
+}
+.hi{
+    font-size:130px;
+    font-style:italic;
+    font-weight:bold;
+}
+.stream{
+    position:absolute;
+    width: 500px;
+    padding: 50px;
+    height: 700px;
+    box-shadow: 0 8px 16px 0 rgba(161, 78, 195, 1);
+}
+.steams{
+    font-weight:bold;
+    font-size:25px;
+    font-family:monospace;
+}
+.bream{
+    font-size:25px;
+    font-family:monospace;
+}
+.cool{
+    font-weight:bold;
+    font-size:25px;
+    font-family:monospace;
+}
+.weeb{
+    font-weight:bold;
+    font-size:25px;
+    font-family:monospace;
+}
+.computer{
+    font-weight:bold;
+    font-size:25px;
+    font-family:monospace;
+}
+.help{
+    font-weight:bold;
+    font-size:25px;
+    font-family:monospace;
+}
+.yeam{
+    float:right;
+    margin-left:950px;
+    font-weight:bold;
+    font-size:25px;
+    font-family:monospace;
+}
+.jean{
+    font-weight:bold;
+    font-size:20px;
+    font-family:monospace;
+}
+.kelp{
+    font-size:10px;
+    text-decoration:none;
+}
+.bean{
+    font-weight:bold;
+    font-size:120px;
+    font-family:monospace;
+}
+.pean{
+    float:right;
+    margin-right:250px;
+    font-weight:bold;
+    font-size:30px;
+    font-family:monospace;
+}
+.gamer{
+    position:absolute;
+    width: 550px;
+    padding: 50px;
+    height: 700px;
+    box-shadow: 0 8px 16px 0 rgba(239, 196, 164, 1);
+}
+.sign{
+    position:absolute;
+    width: 800px;
+    padding: 50px;
+    height: 700px;
+    box-shadow: 0 8px 16px 0 rgba(235, 203, 178, 1);
+}
+.melt{
+    font-size:10px;
+    text-decoration:none;
+    float:right;
+
+}
